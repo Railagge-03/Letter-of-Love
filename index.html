@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Letter of Love – Sepucuk Surat Untuk Nadhia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <audio id="bgMusic" loop preload="none">
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+
+  <div id="petals"></div>
+
+  <!-- Slider -->
+  <div id="slider">
+
+    <div class="slide active" id="slide-0">
+      <img class="slide-bg" id="img-0" src="" alt="Cover">
+      <div class="cover-overlay"></div>
+      <button id="envelopeBtn" aria-label="Buka surat">
+        <svg width="82" height="62" viewBox="0 0 120 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="3" y="18" width="114" height="68" rx="7" fill="#d4b896" stroke="#b8956a" stroke-width="1.8"/>
+          <path d="M3 18 L60 56 L117 18Z" fill="#c9a87e" stroke="#b8956a" stroke-width="1.2"/>
+          <line x1="3" y1="86" x2="60" y2="52" stroke="#b8956a" stroke-width="1"/>
+          <line x1="117" y1="86" x2="60" y2="52" stroke="#b8956a" stroke-width="1"/>
+          <circle cx="60" cy="49" r="15" fill="#9b2335" stroke="#7a1828" stroke-width="1.5"/>
+          <path d="M60 39.5L62.5 46H69L63.8 49.9L65.9 56.5L60 52.5L54.1 56.5L56.2 49.9L51 46H57.5Z" fill="#c0392b"/>
+          <circle cx="60" cy="49" r="9" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="0.8"/>
+        </svg>
+        <span class="env-label">buka surat</span>
+      </button>
+    </div>
+
+
+  <div class="slide" id="slide-1">
+    <img class="slide-bg" id="img-1" src="" alt="Page 2">
+  </div>
+  <div class="slide" id="slide-2">
+    <img class="slide-bg" id="img-2" src="" alt="Page 3">
+  </div>
+  <div class="slide" id="slide-3">
+    <img class="slide-bg" id="img-3" src="" alt="Page 4">
+  </div>
+  <div class="slide" id="slide-4">
+    <img class="slide-bg" id="img-4" src="" alt="Page 5">
+  </div>
+  <div class="slide" id="slide-5">
+    <img class="slide-bg" id="img-5" src="" alt="Page 6">
+  </div>
+  <div class="slide" id="slide-6">
+    <img class="slide-bg" id="img-6" src="" alt="Page 7">
+  </div>
+
+  </div>
+
+  <button id="prevBtn" class="nav-arrow" aria-label="Sebelumnya">&#8592;</button>
+  <button id="nextBtn" class="nav-arrow" aria-label="Berikutnya">&#8594;</button>
+  <div id="dots"></div>
+  <div id="swipeHint">geser untuk lanjut &#8594;</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
